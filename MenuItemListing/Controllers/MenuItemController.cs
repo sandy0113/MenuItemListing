@@ -15,7 +15,7 @@ namespace MenuItemListing.Controllers
         [HttpGet]
         public List<MenuItem> GetItem()
         {
-            List<MenuItem> menuItemList = new List<MenuItem>()
+            var menuItemList = new List<MenuItem>()
             {   new MenuItem() {Id=1, Name="Pencil",freeDelivery=true,Price=10, dateOfLaunch=new DateTime(2022,06,13), Active=true},
                 new MenuItem() {Id=2, Name="Pen",freeDelivery=true,Price=2, dateOfLaunch=new DateTime(2022,06,13), Active=true},
                 new MenuItem() {Id=3, Name="Keyboard",freeDelivery=true,Price=200, dateOfLaunch=new DateTime(2022,06,14), Active=true},
