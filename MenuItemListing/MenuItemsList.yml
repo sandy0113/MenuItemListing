@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: Truyumcontainer
-        image: localhost:9000/Truyumcontainer:latest
+        image: mymenuitemapi226cr.azurecr.io/mymenuitemapi226contreg226:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
